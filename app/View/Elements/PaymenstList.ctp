@@ -1,0 +1,2 @@
+<?php $payments = $this->requestAction('/payments/index'); ?>
+<?php echo $this->Form->input('Transaction.payment_id',array('options' => $payments, 'class'=>'input-medium', 'id' => 'PaymentIdInput', 'label' => __('Payments').' : '));?>

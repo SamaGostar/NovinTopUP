@@ -1,0 +1,284 @@
+msgid "The %s Has Been Saved"
+msgstr "%s با موفقیت ذخیره شد ."
+
+msgid "The %s has been saved"
+msgstr "%s با موفقیت ذخیره شد ."
+
+msgid "%s not saved , Try again Please"
+msgstr "%s ذخیره نشد ، لطفا یکبار دیگر امتحان کنید ."
+
+msgid "The %s could not be saved. Please, try again."
+msgstr "%s ذخیره نشد ، لطفا یکبار دیگر امتحان کنید ."
+
+msgid "Invalid %s ID"
+msgstr "شناسنه %s اشتباه است ."
+
+msgid "The %s has been deleted"
+msgstr "%s با موفقیت حذف شد ."
+
+msgid "The %s could not be deleted. Please, try again."
+msgstr "متاسفانه %s حذف نشد ، لطفا دوباره امتحان کنید ."
+
+msgid "The %s Information Has Been Updated"
+msgstr "اطلاعات %s با موفقیت بروز شد ."
+
+msgid "The %s Information Not Updated , Try again Please"
+msgstr "متاسفانه اطلاعات %s بروز نشد ، لطفا دوباره امتحان کنید ."
+
+msgid "The %s File Not Found"
+msgstr "فایل %s یافت نشد"
+
+msgid "Cell Number"
+msgstr "شماره موبایل"
+
+msgid "Charges"
+msgstr "مقدار شارژ"
+
+msgid "Payments"
+msgstr "درگاه پرداخت"
+
+msgid "Email"
+msgstr "آدرس ایمیل"
+
+msgid "Email Not Valid"
+msgstr "آدرس ایمیل صحیح وارد نشده است"
+
+msgid "Numbers only"
+msgstr "شماره تلفن صحیح وارد نشده است"
+
+msgid "11 characters Only"
+msgstr "شماره تلفن صحیح وارد نشده است"
+
+msgid "MCI Charge"
+msgstr "شارژ همراه اول"
+
+msgid "MTN Charge"
+msgstr "شارژ ایرانسل"
+
+msgid "RIGHTEL Charge"
+msgstr "شارژ رایتل"
+
+msgid "Status-0"
+msgstr "پرداخت نشده"
+
+msgid "Status-1"
+msgstr "پرداخت شده"
+
+msgid "Status-2"
+msgstr "خطا در بانک"
+
+msgid "Status-3"
+msgstr "خطا در بازگشت"
+
+msgid "Transactions"
+msgstr "تراکنش"
+
+msgid "Services"
+msgstr "اپراتورها"
+
+msgid "Products"
+msgstr "محصولات"
+
+msgid "Settings"
+msgstr "تنظیمات"
+
+msgid "Users"
+msgstr "کاربران"
+
+msgid "Home Page"
+msgstr "صفحه اصلی"
+
+msgid "SiteTitle"
+msgstr "نام سایت"
+
+msgid "SiteDescription"
+msgstr "توضیحات سایت"
+
+msgid "SiteMail"
+msgstr "ایمیل سایت"
+
+msgid "DefaultOperator"
+msgstr "اپراتور پیشفرض"
+
+msgid "Limit"
+msgstr "تعداد رکورد ها"
+
+msgid "SiteKeyword"
+msgstr "کلید واژه ها"
+
+msgid "Save"
+msgstr "ذخیره"
+
+msgid "Create"
+msgstr "ذخیره"
+
+msgid "Edit"
+msgstr "ویرایش"
+
+msgid "Logout"
+msgstr "خروج"
+
+msgid "UserId"
+msgstr "شناسه  سامانه نوین"
+
+msgid "Pass"
+msgstr "کلید تبادل"
+
+msgid "Invalid Verify"
+msgstr "تراکنش از سوی بانک تائید نشد ، در صورت کسر وجه طی 72 ساعت وجه پرداختی به حساب شما باز خواهد گشت"
+
+msgid "Invalid Key"
+msgstr "ورودی تعریف نشده است"
+
+msgid "Invalid Transaction"
+msgstr "تراکنش نامعتبر است"
+
+msgid "Invalid Verify Keys"
+msgstr "مقدار کلید ورودی اشتباه است"
+
+msgid "Dispatch Error"
+msgstr "ورودی نامعتبر می باشد"
+
+msgid "Error On Operator Charge System"
+msgstr "خطا در سامانه شارژ"
+
+msgid "Invalid PSP Name"
+msgstr "مقدار ارسال شده اشتباه است"
+
+msgid "message"
+msgstr "پیام"
+
+msgid "Buyer"
+msgstr "کاربر"
+
+msgid "Message is required"
+msgstr "لطفا متن پیام خود را وارد کنید"
+
+msgid "Did you really think you are allowed to see that?"
+msgstr "شما به این بخش دسترسی ندارید !"
+
+msgid "Please enter your username and password"
+msgstr "نام کاربری و رمز عبور خود را وارد کنید"
+
+msgid "Username or password is incorrect"
+msgstr "نام کاربری یا رمز عبور اشتباه است !"
+
+msgid "Password"
+msgstr "رمز عبور"
+
+msgid "Login"
+msgstr "ورود"
+
+msgid "Send"
+msgstr "ارسال"
+
+msgid "Conferences"
+msgstr "پیام ها"
+
+msgid "Reset Password : "
+msgstr "تغییر رمز عبور : "
+
+msgid "Confirm Password"
+msgstr "تکرار رمز عبور"
+
+msgid "Note"
+msgstr "یادداشت"
+
+msgid "status"
+msgstr "وضعیت"
+
+msgid "All Conferences"
+msgstr "تمام پیام ها"
+
+msgid "ConferenceStatus0"
+msgstr "-"
+
+msgid "ConferenceStatus1"
+msgstr "باز"
+
+msgid "ConferenceStatus2"
+msgstr "پاسخ داده شده"
+
+msgid "ConferenceStatus3"
+msgstr "در دست بررسی"
+
+msgid "ConferenceStatus4"
+msgstr "بسته شده"
+
+msgid "Follow My Payment"
+msgstr "پیگیری شارژ"
+
+msgid "Transaction Id"
+msgstr "شناسه پرداخت"
+
+msgid "Cell Number"
+msgstr "شماره همراه"
+
+msgid "All Conference"
+msgstr "تمام پیام ها"
+
+msgid "ChangePassword"
+msgstr "تغییر رمز عبور"
+
+msgid "Slug"
+msgstr "عنوان"
+
+msgid "Description"
+msgstr "شرح"
+
+msgid "Price"
+msgstr "قیمت"
+
+msgid "Active"
+msgstr "فعال"
+
+msgid "Invalid Data"
+msgstr "اطلاعات اشتباه است"
+
+msgid "Invalid Conference"
+msgstr "اطلاعات اشتباه است"
+
+msgid "Not Found"
+msgstr "یافت نشد !"
+
+msgid "TransactionStatus200"
+msgstr "ارسال به در گاه بانکی"
+
+msgid "TransactionStatus1100"
+msgstr "پرداخت بانکی موفق"
+
+msgid "TransactionStatus0"
+msgstr "عملیات خرید"
+
+msgid "TransactionStatus-22"
+msgstr "خطای درگاه پرداخت"
+
+msgid "note"
+msgstr "یادداشت"
+
+msgid "Magic Charge"
+msgstr "شارژ شگفت انگیز"
+
+msgid "Magics0"
+msgstr "معمولی"
+
+msgid "Magics"
+msgstr "معمولی"
+
+msgid "Magics1"
+msgstr "شگفت انگیز"
+
+msgid "The requested address was not found on this server."
+msgstr "اطلاعات ارسالی شما اشتباه است ."
+
+msgid "An Internal Error Has Occurred."
+msgstr "خطای سیستمی وجود دارد ."
+
+msgid "Error"
+msgstr "خطا"
+
+msgid "Message must be no larger than 1000 characters long."
+msgstr "متن پیام بسیار طولانی است ، لطفا خلاصه تر بنویسید ."
+
+msgid "Remember Me"
+msgstr "مرا به خاطر بسپار"

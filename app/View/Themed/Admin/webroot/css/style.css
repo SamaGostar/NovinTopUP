@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'BTitrBold';
+    src:url('../fonts/BTitrBold.eot?#') format('eot'),    
+          url('../fonts/BTitrBold.woff') format('woff'),
+          url('../fonts/BTitrBold.ttf') format('truetype'); 
+}
+body{
+	background:url("../img/bg_body.jpg") ;
+}
+a {
+    color: #953B39;
+    text-decoration: none;
+}
+.header{
+	margin-top:20px;
+}
+.logo{
+	background:url("../img/logo.png") no-repeat ;
+	width:111px;
+	height:55px;
+	display:block;
+}
+.logo:hover{
+	background:url("../img/logo2.png") no-repeat ;
+}
+.description{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	color:#666;
+}
+.users{
+	height:90px;
+}
+.admin-avatar{
+  background-color: #FFFFFF;
+  border: 1px solid #BEC2C8;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+  height: 60px;
+  padding: 2px;
+  width: 60px;
+  margin:0 0 0 15px;
+}
+.menu ul{
+	margin:0;
+	border-bottom: 1px solid #DEDEDE;
+}
+.menu ul li{
+	width:100%;
+	line-height: 30px;
+    color: #939699;
+    display: block;
+	border-top: 1px solid #DEDEDE;
+	margin:0;
+}
+.menu ul li a{
+	direction:rtl;
+    color: #939699;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	padding:0 10px 0 0 ;
+}
+.menu ul li a:hover {
+    color: #E74949;
+	text-decoration:none;
+	font-weight:bold;
+}
+.menu ul li a:hover i{
+    background-image: url("../img/glyphicons-halflings-red.png");
+}
+.main-box{
+  -moz-box-sizing: border-box;
+  background-color: #FFFFFF;
+  border: 1px solid #BEC2C8;
+  border-radius: 2px 2px 0 0;
+  padding: 23px 23px 3px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.15), 0 4px 0 -3px #FFFFFF, 0 4px 0 -2px #BEC2C8, 0 8px 0 -5px #FFFFFF, 0 8px 0 -4px #BEC2C8;
+  color: #525459;
+  margin-bottom: 20px;
+  position: relative;
+}
+.h2title{
+	font-family:BTitrBold, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:27px;
+	margin:0;
+}
+.Tdescrip{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-weight:normal;
+	font-size:12px;
+}
+.transdetail{
+	height:202px;
+	padding:20px;
+}
+.transdetail label{
+	width:50%;	
+	display: block;
+    float: right;
+    font-weight: bold;
+}
+.transdetail p{
+	width:50%;	
+	display: block;
+    float: right;
+    font-weight: bold;
+}
+.conferences p{
+	font-family:Tahoma, Geneva, sans-serif;
+}
+.alert-gray {
+  color: #666;
+  background-color: #EFEFEF;
+  border-color: #DADADA;
+}
+.alert-gray h4 {
+  color: #333;
+}
+.novincredit {
+    background: none repeat scroll 0 0 #EFEFEF;
+    display: block;
+    float: left;
+    padding: 10px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+    padding: 10px 15px;
+	color:#333;
+	opacity: 0.9;
+}
+.samanlink{
+	margin:20px 0;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+}
+.btnn {
+	margin: 10px 0 0;
+}
+.btnn a {
+	font-size: 13px;
+	margin: 0 2px;
+  	font-family: tahoma;
+  	font-weight: normal;
+  	padding: 3px 9px;
+}
