@@ -4,23 +4,31 @@ class NovinwaysComponent extends Component {
 	
 	public $ErrorCode; 
 	
-	private $WebServiceUrl = 'http://novinways.com/WebService/wsdl';
+	private $WebServiceUrl = 'http://www.novinways.com/services/ChargeBox/wsdl';
 
 	function SetVar($variable,$value){
 		$this->{$variable} = $value;
 	}
 
 	function Charge(){
-		$this->client = new SoapClient($this->WebServiceUrl, array('cache_wsdl' => WSDL_CACHE_NONE));
-		$res = $this->client->ReCharge(array('webservice_id' => $this->UserID, 'webservice_pass' => $this->Pass), $this->Amount, $this->Operator, $this->Email, $this->CellNumber, $this->TransID);
-
+		$this->client = new SoapClient($this->WebServiceUrl);
+		$res = $this->client->ReCharge(
+			array(
+				'Auth' => array('WebserviceId' => $this->UserID, 'WebservicePassword' => $this->Pass),
+				'Amount' => $this->Amount,
+				'Type' => $this->Operator,
+				'Account' => $this->CellNumber,
+				'ReqId' => $this->TransID
+			)
+		);
+		
 		if(isset($res)){
 			//$this->ErrorCode = $res;
-			if($res < 0){
-				$this->ErrorCode = $res -100 ;
+			if($res->Status < 0){
+				$this->ErrorCode = $res->Status -100 ;
 				return false ;
 			}else{
-				$this->ErrorCode = $res +100 ;
+				$this->ErrorCode = $res->Status +100 ;
 				return true ;
 			}
 		}
@@ -29,9 +37,9 @@ class NovinwaysComponent extends Component {
 	
 	function GetInfo(){
 		$this->client = new SoapClient($this->WebServiceUrl);
-		$res = $this->client->CheckCredit(array('webservice_id' => $this->UserID, 'webservice_pass' => $this->Pass));	
-		if(isset($res)){
-			return $res ;
+		$res = $this->client->CheckCredit(array('Auth' => array('WebserviceId' => $this->UserID, 'WebservicePassword' => $this->Pass)));
+		if(isset($res) && $res->Status == 100){
+			return $res->Credit;
 		}
 		return false;	
 	}
